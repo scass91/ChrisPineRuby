@@ -8,16 +8,6 @@ Chapter 8 problems
 #'one thousand' instead of 'ten hundred' and 'ten thousand' instead of 'one
 #hundred hundred'.
 
-=begin
-August 12th 2018
-Chris Pine ruby
-Chapter 8 problems
-=end
-
-#Expand upon englishNumber. First, put in thousands. So it should return
-#'one thousand' instead of 'ten hundred' and 'ten thousand' instead of 'one
-#hundred hundred'.
-
 def englishNumber number
   if number < 0  # No negative numbers.
     return 'Please enter a number that isn\'t negative.'
