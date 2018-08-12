@@ -31,9 +31,9 @@ def englishNumber number
 left = number
 
 	write = left / 1000000
-	left = left - write * 1000000
+	left = left - write * 1000000 #remove the complete millions from our input
 
-	if write > 0
+	if write > 0  #if the number is greater than a million
 		millions = englishNumber write
 		numString = numString + millions + " million"
 
@@ -43,7 +43,7 @@ left = number
 	end
 
 	write = left / 1000
-	left = left - write * 1000
+	left = left - write * 1000 #remove the complete thousands
 
 	if write > 0
 		thousands = englishNumber write
